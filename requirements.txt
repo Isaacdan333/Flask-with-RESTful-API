@@ -1,0 +1,7 @@
+Necessary libraries needed:
+- flask
+- flask_mysqldb
+- PyJWT
+
+Environments needed:
+- MySQL workbench

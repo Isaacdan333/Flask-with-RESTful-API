@@ -1,7 +1,7 @@
 Necessary libraries needed:
-- flask
-- flask_mysqldb
-- PyJWT
+- flask (pip install flask)
+- flask_mysqldb (pip install flask_mysqldb)
+- PyJWT (pip install PyJWT)
 
 Environments needed:
 - MySQL workbench

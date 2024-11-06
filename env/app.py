@@ -113,6 +113,10 @@ def token_missing(e):
 def page_not_found(e):
     return jsonify({"error": "Page Not Found"}), 404
 
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return jsonify({"error": "Method not allowed for requested url"}), 405
+
 @app.errorhandler(413)
 def file_too_large(error):
     return jsonify({"error": "File is too large. Maximum file size allowed is 2MB."}), 413
